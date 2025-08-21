@@ -1,0 +1,69 @@
+:root {
+  --bg: #0f172a;       /* slate-900 */
+  --paper: #0f172a;
+  --fg: #ffffff;
+  --grid: #334155;     /* slate-700 */
+  --axis: #475569;     /* slate-600 */
+  --green: #10b981;    /* emerald-500 */
+  --red: #ef4444;      /* red-500 */
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.grid3 {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1.3fr 1fr 2.1fr; /* mimic your Streamlit columns */
+  align-items: end;
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.select, .checkbox, .date {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+select, input[type="date"] {
+  background: #111827;
+  border: 1px solid #1f2937;
+  color: var(--fg);
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 8px 0 16px;
+  font-size: 24px;
+}
+
+.caption {
+  opacity: 0.8;
+  font-size: 13px;
+  margin-top: 8px;
+}
+.warn {
+  padding: 10px 12px;
+  border: 1px dashed #64748b;
+  border-radius: 8px;
+  background: #0b1224;
+  margin-top: 10px;
+}
