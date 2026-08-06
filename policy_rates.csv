@@ -1,11 +1,11 @@
 currency,area_code,rate,as_of_date,source
-EUR,XM,2.25,2026-07-29,European Central Bank
-JPY,JP,1,2026-07-29,Bank of Japan
-GBP,GB,3.75,2026-07-28,Bank of England
-CHF,CH,0,2026-07-29,Swiss National Bank
-CAD,CA,2.25,2026-07-28,Bank of Canada
-AUD,AU,4.35,2026-07-23,Reserve Bank of Australia
-NZD,NZ,2.5,2026-07-17,Reserve Bank of New Zealand
-MXN,MX,6.5,2026-07-29,Bank of Mexico
-BRL,BR,14.25,2026-07-29,Central Bank of Brazil
-USD,US,3.625,2026-07-29,US Federal Reserve System
+EUR,XM,2.25,2026-08-04,European Central Bank
+JPY,JP,1,2026-08-04,Bank of Japan
+GBP,GB,3.75,2026-08-03,Bank of England
+CHF,CH,0,2026-08-04,Swiss National Bank
+CAD,CA,2.25,2026-08-03,Bank of Canada
+AUD,AU,4.35,2026-07-30,Reserve Bank of Australia
+NZD,NZ,2.5,2026-07-31,Reserve Bank of New Zealand
+MXN,MX,6.5,2026-08-04,Bank of Mexico
+BRL,BR,14.25,2026-08-04,Central Bank of Brazil
+USD,US,3.625,2026-08-04,US Federal Reserve System
